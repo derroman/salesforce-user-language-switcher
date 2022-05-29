@@ -23,7 +23,7 @@ And as we are developers and therefore love to make our lives easier, we've deve
 
 ## Install
 
-[**Chrome** extension]()
+- Will follow soon...
 
 ## Contribution
 
