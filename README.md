@@ -1,11 +1,16 @@
 # <img src="public/icons/icon_48.png" width="45" align="left"> Salesforce User Language Switcher
 
-My Chrome Extension
+This little Chrome extension helps Salesforce users to switch their current user language with a single click. 
 
 ## Features
-chrome exten
-- Feature 1
-- Feature 2
+
+- Queries all available languages of a Salesforce environment
+- Provides a list of languages which can be switch with a single click
+- Page will reload automatically after language switch
+
+## Remarks
+
+- Switching to some languages might take a moment to refresh the Page, e.g. "Chinese (Traditional)"
 
 ## Install
 
