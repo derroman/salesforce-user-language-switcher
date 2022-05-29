@@ -1,1 +1,221 @@
-[{"timestamp":1643817189467,"files":[{"filename":"assets/styles/salesforce-lightning-design-system.css","previous":86232,"size":86232,"diff":0},{"filename":"assets/styles/salesforce-lightning-design-system.min.css","previous":82162,"size":82162,"diff":0},{"filename":"background.js","previous":1137,"size":1137,"diff":0},{"filename":"contentScript.js","previous":599,"size":599,"diff":0},{"filename":"popup.html","previous":750,"size":724,"diff":-26},{"filename":"popup.js","previous":1019,"size":1019,"diff":0}]},{"timestamp":1643817110560,"files":[{"filename":"assets/styles/salesforce-lightning-design-system_touch.css","previous":2807,"size":0,"diff":-2807},{"filename":"assets/styles/salesforce-lightning-design-system_touch.min.css","previous":2623,"size":0,"diff":-2623},{"filename":"assets/styles/salesforce-lightning-design-system-imports.sanitized.css","previous":512,"size":0,"diff":-512},{"filename":"assets/styles/salesforce-lightning-design-system-legacy.css","previous":80751,"size":0,"diff":-80751},{"filename":"assets/styles/salesforce-lightning-design-system-legacy.min.css","previous":76625,"size":0,"diff":-76625},{"filename":"assets/styles/salesforce-lightning-design-system-offline.css","previous":404111,"size":0,"diff":-404111},{"filename":"assets/styles/salesforce-lightning-design-system-offline.min.css","previous":399638,"size":0,"diff":-399638},{"filename":"assets/styles/salesforce-lightning-design-system.css","previous":86232,"size":86232,"diff":0},{"filename":"assets/styles/salesforce-lightning-design-system.min.css","previous":82162,"size":82162,"diff":0},{"filename":"assets/styles/salesforce-lightning-design-system.sanitized.css","previous":41175,"size":0,"diff":-41175},{"filename":"background.js","previous":1137,"size":1137,"diff":0},{"filename":"contentScript.js","previous":599,"size":599,"diff":0},{"filename":"popup.html","previous":750,"size":750,"diff":0},{"filename":"popup.js","previous":1019,"size":1019,"diff":0}]},{"timestamp":1643816723613,"files":[{"filename":"assets/styles/salesforce-lightning-design-system_touch.css","previous":2807,"size":2807,"diff":0},{"filename":"assets/styles/salesforce-lightning-design-system_touch.min.css","previous":2623,"size":2623,"diff":0},{"filename":"assets/styles/salesforce-lightning-design-system-imports.sanitized.css","previous":512,"size":512,"diff":0},{"filename":"assets/styles/salesforce-lightning-design-system-legacy.css","previous":80751,"size":80751,"diff":0},{"filename":"assets/styles/salesforce-lightning-design-system-legacy.min.css","previous":76625,"size":76625,"diff":0},{"filename":"assets/styles/salesforce-lightning-design-system-offline.css","previous":404111,"size":404111,"diff":0},{"filename":"assets/styles/salesforce-lightning-design-system-offline.min.css","previous":399638,"size":399638,"diff":0},{"filename":"assets/styles/salesforce-lightning-design-system.css","previous":86232,"size":86232,"diff":0},{"filename":"assets/styles/salesforce-lightning-design-system.min.css","previous":82162,"size":82162,"diff":0},{"filename":"assets/styles/salesforce-lightning-design-system.sanitized.css","previous":41175,"size":41175,"diff":0},{"filename":"background.js","previous":2209,"size":1137,"diff":-1072},{"filename":"contentScript.js","previous":1546,"size":599,"diff":-947},{"filename":"popup.html","previous":750,"size":750,"diff":0},{"filename":"popup.js","previous":2059,"size":1019,"diff":-1040}]}]
+[
+  {
+    "timestamp": 1643817189467,
+    "files": [
+      {
+        "filename": "assets/styles/salesforce-lightning-design-system.css",
+        "previous": 86232,
+        "size": 86232,
+        "diff": 0
+      },
+      {
+        "filename": "assets/styles/salesforce-lightning-design-system.min.css",
+        "previous": 82162,
+        "size": 82162,
+        "diff": 0
+      },
+      {
+        "filename": "background.js",
+        "previous": 1137,
+        "size": 1137,
+        "diff": 0
+      },
+      {
+        "filename": "contentScript.js",
+        "previous": 599,
+        "size": 599,
+        "diff": 0
+      },
+      {
+        "filename": "popup.html",
+        "previous": 750,
+        "size": 724,
+        "diff": -26
+      },
+      {
+        "filename": "popup.js",
+        "previous": 1019,
+        "size": 1019,
+        "diff": 0
+      }
+    ]
+  },
+  {
+    "timestamp": 1643817110560,
+    "files": [
+      {
+        "filename": "assets/styles/salesforce-lightning-design-system_touch.css",
+        "previous": 2807,
+        "size": 0,
+        "diff": -2807
+      },
+      {
+        "filename": "assets/styles/salesforce-lightning-design-system_touch.min.css",
+        "previous": 2623,
+        "size": 0,
+        "diff": -2623
+      },
+      {
+        "filename": "assets/styles/salesforce-lightning-design-system-imports.sanitized.css",
+        "previous": 512,
+        "size": 0,
+        "diff": -512
+      },
+      {
+        "filename": "assets/styles/salesforce-lightning-design-system-legacy.css",
+        "previous": 80751,
+        "size": 0,
+        "diff": -80751
+      },
+      {
+        "filename": "assets/styles/salesforce-lightning-design-system-legacy.min.css",
+        "previous": 76625,
+        "size": 0,
+        "diff": -76625
+      },
+      {
+        "filename": "assets/styles/salesforce-lightning-design-system-offline.css",
+        "previous": 404111,
+        "size": 0,
+        "diff": -404111
+      },
+      {
+        "filename": "assets/styles/salesforce-lightning-design-system-offline.min.css",
+        "previous": 399638,
+        "size": 0,
+        "diff": -399638
+      },
+      {
+        "filename": "assets/styles/salesforce-lightning-design-system.css",
+        "previous": 86232,
+        "size": 86232,
+        "diff": 0
+      },
+      {
+        "filename": "assets/styles/salesforce-lightning-design-system.min.css",
+        "previous": 82162,
+        "size": 82162,
+        "diff": 0
+      },
+      {
+        "filename": "assets/styles/salesforce-lightning-design-system.sanitized.css",
+        "previous": 41175,
+        "size": 0,
+        "diff": -41175
+      },
+      {
+        "filename": "background.js",
+        "previous": 1137,
+        "size": 1137,
+        "diff": 0
+      },
+      {
+        "filename": "contentScript.js",
+        "previous": 599,
+        "size": 599,
+        "diff": 0
+      },
+      {
+        "filename": "popup.html",
+        "previous": 750,
+        "size": 750,
+        "diff": 0
+      },
+      {
+        "filename": "popup.js",
+        "previous": 1019,
+        "size": 1019,
+        "diff": 0
+      }
+    ]
+  },
+  {
+    "timestamp": 1643816723613,
+    "files": [
+      {
+        "filename": "assets/styles/salesforce-lightning-design-system_touch.css",
+        "previous": 2807,
+        "size": 2807,
+        "diff": 0
+      },
+      {
+        "filename": "assets/styles/salesforce-lightning-design-system_touch.min.css",
+        "previous": 2623,
+        "size": 2623,
+        "diff": 0
+      },
+      {
+        "filename": "assets/styles/salesforce-lightning-design-system-imports.sanitized.css",
+        "previous": 512,
+        "size": 512,
+        "diff": 0
+      },
+      {
+        "filename": "assets/styles/salesforce-lightning-design-system-legacy.css",
+        "previous": 80751,
+        "size": 80751,
+        "diff": 0
+      },
+      {
+        "filename": "assets/styles/salesforce-lightning-design-system-legacy.min.css",
+        "previous": 76625,
+        "size": 76625,
+        "diff": 0
+      },
+      {
+        "filename": "assets/styles/salesforce-lightning-design-system-offline.css",
+        "previous": 404111,
+        "size": 404111,
+        "diff": 0
+      },
+      {
+        "filename": "assets/styles/salesforce-lightning-design-system-offline.min.css",
+        "previous": 399638,
+        "size": 399638,
+        "diff": 0
+      },
+      {
+        "filename": "assets/styles/salesforce-lightning-design-system.css",
+        "previous": 86232,
+        "size": 86232,
+        "diff": 0
+      },
+      {
+        "filename": "assets/styles/salesforce-lightning-design-system.min.css",
+        "previous": 82162,
+        "size": 82162,
+        "diff": 0
+      },
+      {
+        "filename": "assets/styles/salesforce-lightning-design-system.sanitized.css",
+        "previous": 41175,
+        "size": 41175,
+        "diff": 0
+      },
+      {
+        "filename": "background.js",
+        "previous": 2209,
+        "size": 1137,
+        "diff": -1072
+      },
+      {
+        "filename": "contentScript.js",
+        "previous": 1546,
+        "size": 599,
+        "diff": -947
+      },
+      {
+        "filename": "popup.html",
+        "previous": 750,
+        "size": 750,
+        "diff": 0
+      },
+      {
+        "filename": "popup.js",
+        "previous": 2059,
+        "size": 1019,
+        "diff": -1040
+      }
+    ]
+  }
+]
