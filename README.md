@@ -23,7 +23,7 @@ And as we are developers and therefore love to make our lives easier, we've deve
 
 ## Install
 
-- Will follow soon...
+This extension is available from the [Chrome Web Store](https://chrome.google.com/webstore/detail/salesforce-user-language/eibbnodeofbegdecjhomdblocokifman).
 
 ## Contribution
 
