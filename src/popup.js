@@ -26,6 +26,7 @@ function tabQueryCallback(tabs) {
             response => {
                 console.log(JSON.stringify(response, null, 1));
                 if (!response) {
+                    createErrorMessage('This is not a Salesforce Lightning Page');
                     return;
                 }
                 createRadioButtons(response);
@@ -36,9 +37,11 @@ function tabQueryCallback(tabs) {
 function createRadioButtons(values) {
     if (!values) {
         console.log('Not a SF page');
+        createErrorMessage('This is not a Salesforce Lightning Page');
         return;
     }
-    document.getElementById('header').innerHTML = 'Please select a language';
+    hideSpinner();
+    // document.getElementById('header').innerHTML = 'Please select a language';
     document.getElementById('footer').innerHTML = values.length + ' languages configured';
     values.forEach((value, i) => {
 
@@ -99,4 +102,35 @@ function refreshPage(tabs) {
     chrome.tabs.reload(currentTab.id);
 }
 
+function createErrorMessage(message, submessage) {
+    let outDiv = document.createElement('div');
+    outDiv.className = 'slds-notify_container slds-is-relative';
 
+    let errorToastDiv = document.createElement('div');
+    outDiv.appendChild(errorToastDiv);
+    errorToastDiv.className = 'slds-notify slds-notify_toast slds-theme_error';
+    errorToastDiv.setAttribute('role', 'status');
+
+    let contentDiv = document.createElement('div');
+    errorToastDiv.appendChild(contentDiv);
+    contentDiv.className = 'slds-notify__content';
+
+    let headline = document.createElement('h2');
+    contentDiv.appendChild(headline);
+    headline.className = 'slds-text-heading_small';
+    headline.innerHTML = message;
+
+    if (submessage) {
+        let subMessageP = document.createElement('p');
+        contentDiv.appendChild(subMessageP);
+        subMessageP.innerHTML = submessage;
+    }
+    hideSpinner();
+    // document.getElementById('headerBodyDiv').innerHTML = '';
+    document.getElementById('formDiv').appendChild(outDiv);
+
+
+}
+function hideSpinner(){
+    document.getElementById('loading-spinner').style.display = 'none';
+}

@@ -16,7 +16,8 @@
         }
 
         .slds-card__body {
-            width: 300px!important;
+            min-width: 350px!important;
+            max-width: 550px!important;
         }
 
         .slds-card__footer {
@@ -35,13 +36,23 @@
                 <header class='slds-media slds-media_center slds-has-flexi-truncate'>
                     <div class='slds-media__body'>
                         <h2 class='slds-card__header-title' id="header">
-                            Languages are loading or this is not a Salesforce Lighting Page
+                            Salesforce User Language Switcher
                         </h2>
                     </div>
                 </header>
             </div>
         </div>
         <div class='slds-card__body slds-card__body_inner'  style="overflow-y: auto; max-height: 300px;">
+            <div class="loading-spinner" id="loading-spinner" style="height:6rem;position:relative">
+                <div class="slds-spinner_container">
+                    <div role="status" class="slds-spinner slds-spinner_medium slds-spinner_brand">
+                        <span class="slds-assistive-text">Loading</span>
+                        <div class="slds-spinner__dot-a"></div>
+                        <div class="slds-spinner__dot-b"></div>
+                    </div>
+                </div>
+            </div>
+
             <fieldset class="slds-form-element">
 
                 <div class="slds-form-element__control" id="formDiv">
