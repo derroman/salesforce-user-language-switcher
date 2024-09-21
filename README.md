@@ -27,7 +27,7 @@ This extension is available from the [Chrome Web Store](https://chrome.google.co
 
 ## Contribution
 
-Suggestions and pull requests are highly welcome.
+Suggestions and pull requests are highly welcome. 🥳
 
 ---
 
