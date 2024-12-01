@@ -1,6 +1,6 @@
 {
   "name": "salesforce-user-language-switcher",
-  "version": "1.0.0.2",
+  "version": "1.0.1.0",
   "description": "Salesforce User Language Switcher",
   "private": true,
   "scripts": {

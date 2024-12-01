@@ -5,7 +5,6 @@
 /build
 
 # misc
-.DS_Store
 
 # Logs
 logs
@@ -35,3 +34,4 @@ gen
 .project
 .settings
 *.zip
+package-lock.json
