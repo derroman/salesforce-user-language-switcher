@@ -28,8 +28,6 @@ async function setUserLanguage(userId, userLanguage, apiHost, headers) {
         body: JSON.stringify({
             'LanguageLocaleKey': userLanguage
         })
-    }).then(async data => {
-        console.log(JSON.stringify(data));
     });
 }
 

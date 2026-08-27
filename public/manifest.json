@@ -25,18 +25,5 @@
     "https://*.force.com/*",
     "https://*.salesforce.com/*",
     "https://*.salesforce-setup.com/*"
-  ],
-  "content_scripts": [
-    {
-      "matches": [
-        "https://*.force.com/*",
-        "https://*.salesforce.com/*",
-        "https://*.salesforce-setup.com/*"
-      ],
-      "run_at": "document_idle",
-      "js": [
-        "contentScript.js"
-      ]
-    }
   ]
 }

@@ -24,7 +24,6 @@ function tabQueryCallback(tabs) {
                 },
             },
             response => {
-                console.log(JSON.stringify(response, null, 1));
                 if (!response) {
                     createErrorMessage('This is not a Salesforce Lightning Page');
                     return;
@@ -36,7 +35,6 @@ function tabQueryCallback(tabs) {
 
 function createRadioButtons(values) {
     if (!values) {
-        console.log('Not a SF page');
         createErrorMessage('This is not a Salesforce Lightning Page');
         return;
     }
@@ -78,7 +76,6 @@ function createRadioButtons(values) {
 }
 
 function setLanguage(selectedLanguage) {
-    console.log(JSON.stringify(selectedLanguage, null, 1));
     return new Promise((resolve, reject) => {
         chrome.runtime.sendMessage(
             {
@@ -91,7 +88,6 @@ function setLanguage(selectedLanguage) {
                 },
             },
             response => {
-                console.log(JSON.stringify(response, null, 1));
                 chrome.tabs.query(activeTabQuery, refreshPage);
             });
     });
